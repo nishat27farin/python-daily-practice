@@ -1,6 +1,6 @@
 # Python Daily Practice 🐍
 
-[![Python Version](https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.13-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/nishat27farin/python-daily-practice)](https://github.com/nishat27farin/python-daily-practice/commits/main)
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/nishat27farin/python-daily-practice)](https://github.com/nishat27farin/python-daily-practice)
 
