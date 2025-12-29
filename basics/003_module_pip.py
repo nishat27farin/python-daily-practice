@@ -16,5 +16,20 @@ as generating test data and validating results.'''
 
 
 import random       #Importing a built-in module for test data preparation
-test_id = random.randint(1000,8000)
+test_id = random.randint(1000,8000)         #Generating random test data (QA use case)
 print("Generated Test ID:", test_id)
+
+import datetime         #Importing another built-in module for time-related testing
+execution_time = datetime.datetime.now()
+print("Test executed at:", execution_time)      #Capturing test execution time
+
+"""
+pip is used to install external testing-related modules.
+Example (run in terminal):pip install faker
+"""
+from faker import Faker         #Importing an external module for fake test data
+fake = Faker() 
+fake_bd = Faker('bn_BD')          #Creating a Faker object
+print("Test User Name:", fake.name())
+print("Test Email:", fake.email())          #Generating fake user data for testing
+print("Test Cell Phone", fake_bd.phone_number())
